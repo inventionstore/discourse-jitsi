@@ -16,7 +16,7 @@ function launchJitsi($elem, user) {
     return false;
   }
 
-  loadScript("https://" + domain + "/external_api.js").then(() => {
+  loadScript("https://missing." + domain + "/external_api.js").then(() => {
     const options = {
       roomName: data.room,
       height: 450,
